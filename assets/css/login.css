@@ -12,6 +12,95 @@ body{
     background-color: #faebd7;
     scroll-behavior: smooth;
 }
+body.dark-theme {
+    background-color: #221c13;
+}
+
+body.dark-theme .navbar {
+    background-color: #3f3425;
+}
+
+body.dark-theme .navlinks li a {
+    background-color: #3b321d;
+    color: #e0e0e0;
+}
+
+body.dark-theme .navlinks li a:hover {
+    background-color: #7e6f4e;
+    color: #ffffff;
+}
+
+body.dark-theme .navlinks li a.init-page {
+    background-color: #3b3220;
+    color: #e0e0e0;
+}
+
+body.dark-theme .mode-type {
+    background-color: rgb(100, 80, 53);
+    color: #e0e0e0;
+}
+
+body.dark-theme .mode-type:hover {
+    background-color: #7e6f4e;
+    color: #ffffff;
+}
+
+body.dark-theme .main-content {
+    background-color: rgb(75, 64, 45);
+}
+
+body.dark-theme .login-painel {
+    background-color: #2d2d2d;
+    border-color: #241810;
+}
+
+body.dark-theme .login-painel::before {
+    background-color: #241810;
+}
+
+body.dark-theme .login-painel::after {
+    background-color: #241810;
+}
+
+body.dark-theme .login-painel h1 {
+    color: #e0e0e0;
+    border-bottom-color: rgb(179, 150, 112);
+}
+
+body.dark-theme .form-group label {
+    color: #e0e0e0;
+}
+
+body.dark-theme .form-group input {
+    background-color: rgb(100, 82, 59);
+    border-color: #554f2d;
+    color: #e0e0e0;
+}
+
+body.dark-theme .form-group input:focus {
+    border-color: #3a2c1a;
+    box-shadow: 0 0 10px rgba(71, 48, 26, 0.2);
+}
+
+body.dark-theme .input-btn {
+    background-color: rgb(87, 65, 51);
+    color: #e0e0e0;
+}
+
+body.dark-theme .input-btn:hover {
+    background-color: #635042;
+}
+
+body.dark-theme .login-painel p  {
+    color: #dfdbcf;
+}
+
+body.dark-theme .login-painel p a:hover {
+    color: #ffffff;
+}
+body.dark-theme .rooter {
+    background-color: #241810;
+}
 .icone{
     width: 80px;
     height: 100px;
@@ -177,7 +266,7 @@ body{
 }
 
 .form-group label::before {
-    content: '📝';
+    content: '✳';
     font-size: 1.2rem;
 }
 
