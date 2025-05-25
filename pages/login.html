@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library-Login</title>
+    <link rel="icon" href="/assets/img/icon.png" type="image/png">
+    <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header class="navbar">
+    <img class="icone" src="/assets/img/books-icon.png" alt="icon livros">
+    <nav class="nav-content">
+        <ul class="navlinks">
+            <li><a href=/index.html class="init-page">Inicio</a></li>
+            <li><a href="#">Livros</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        <button id="theme-toggle" class="mode-type"><i class="fa-regular fa-sun"></i> Mudar tema</button>
+    </nav>
+</header>
+    <main class="main-content">
+        <section class="login-painel">
+            <h1 class="title-01"> Entre em seu espaço </h1>
+            <form action="login-form">
+             <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+            </div>
+                <button type="submit" class="input-btn">Entrar</button>
+            </form>
+            <p style="text-align: center; margin-top: 1rem; font-family: 'Courier New', monospace;">
+                Ainda não tem conta? <a href="#" style="color: #424229; text-decoration: underline;">Cadastre-se</a>
+            </p>
+        </section>
+    </main>
+    <section></section>
+</body>
+<script src="./script.js"></script>
+<footer class="rooter">Edit @2025</footer>
+</html>
